@@ -44,7 +44,7 @@ public class ThirdPersonCharacterController : MonoBehaviour
     /// but need to be detached at runtime to function properly.
     /// </summary>
     private Transform playerCameras;
-   
+
     private bool IsSprinting
     {
         get
@@ -71,7 +71,6 @@ public class ThirdPersonCharacterController : MonoBehaviour
 
         // Set parent tag to player so cameras can properly ignore, etc.
         transform.parent.tag = "Player";
-    
     }
 
     private void InitializeAnimator()
